@@ -1,0 +1,14 @@
+TEXT_BLOCK_SIZE = 3
+INFO_BLOCK_SIZE = 2
+HEIGHT = 20
+WIDTH = 80
+MAP_VERTICAL_START_POSITION = 3
+MAP_HORIZONTAL_START_POSITION = 0
+
+
+MOVE_VECTORS = dict()
+
+MOVE_VECTORS['move left'] = [-1, 0]
+MOVE_VECTORS['move right'] = [1, 0]
+MOVE_VECTORS['move up'] = [0, -1]
+MOVE_VECTORS['move down'] = [0, 1]
